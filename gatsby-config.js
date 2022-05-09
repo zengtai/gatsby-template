@@ -49,14 +49,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    {
-      resolve: "gatsby-source-strapi",
-      options: {
-        apiURL: process.env.STRAPI_API_URL,
-        accessToken: process.env.STRAPI_TOKEN,
-        collectionTypes: ["game", "category"],
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-strapi",
+    //   options: {
+    //     apiURL: process.env.STRAPI_API_URL,
+    //     accessToken: process.env.STRAPI_TOKEN,
+    //     collectionTypes: ["game", "category"],
+    //   },
+    // },
     `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
